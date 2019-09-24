@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>오리온 제품소개</title>
+
+    <link rel="stylesheet" href="css/product.css">
+    <!-- 어썸폰트 연결 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <!-- 웹폰트 연결 -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/product.js"></script>
+
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div class="container">
+          <div class="header">
+            <div class="logo clearfix">
+              <a href="https://gennii.github.io/orion_product/"><img src="images/logo.jpg" alt="logo"></a>
+              <div class="select">
+                <span>고객센터</span>
+                <select name="KOR">
+                  <option value="">KOR</option>
+                  <option value="">ENG</option>
+                </select>
+              </div> <!-- //.select -->
+              <form method="get">
+                <input type="text" placeholder="SEARCH">
+                <span><i class="fas fa-search"></i></span>
+              </form>
+            </div>
+            <!-- //.logo -->
+            <div class="menu">
+              <div class="bl"></div>
+              <nav>
+                <ul class="gnb">
+                  <li><a href="https://gennii.github.io/orion_product/">제품소개</a>
+                    <ul>
+                      <li><a href="#a">파이</a></li>
+                      <li><a href="#a">스낵</a></li>
+                      <li><a href="#a">비스킷</a></li>
+                      <li><a href="#a">껌</a></li>
+                      <li><a href="#a">캔디</a></li>
+                      <li><a href="#a">초콜릿</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#a">회사소개</a>
+                    <ul>
+                      <li><a href="#a">CF</a></li>
+                      <li><a href="#a">히스토리</a></li>
+                      <li><a href="#a">윤리경영</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#a">이벤트</a>
+                    <ul>
+                      <li><a href="#a">진행중인이벤트</a></li>
+                      <li><a href="#a">당첨자이벤트</a></li>
+                      <li><a href="#a">지난이벤트</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#a">고객센터</a>
+                    <ul>
+                      <li><a href="#a">Q&A</a></li>
+                      <li><a href="#a">공지사항</a></li>
+                      <li><a href="#a">자주묻는질문</a></li>
+                    </ul>
+                  </li>
+                </ul> <!-- //.gnb -->
+              </nav>
+            </div> <!-- //.menu -->
+          </div> <!-- //.header -->
+        </div> <!-- //.container -->
+      </div>
+      <!-- //#header -->
+
+
+      <section id="conveyor">
+        <div class="conveyor">
+          <img src="images/snap.png" class="snap" alt="light">
+          <div class="fix_sub">
+            <a href="#a" class="hamburger_button">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+            <!-- //hamburger_button -->
+            <ul class="sub_menu">
+              <li><a href="#a"  class="sub_title">제품소개</a>
+                <ul>
+                  <li><a href="#a">파이</a></li>
+                  <li><a href="#a">스낵</a></li>
+                  <li><a href="#a">비스켓</a></li>
+                  <li><a href="#a">껌</a></li>
+                  <li><a href="#a">캔디</a></li>
+                  <li><a href="#a">초콜릿</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- //.sub_menu -->
+          </div>
+          <div class="slide_group">
+            <div class="banner">
+              <ul class="slides clearfix">
+                <li><img src="images/chocosong.png" alt="slide1" onmouseover="this.src='images/chocosong.gif'" onmouseout="this.src='images/chocosong.png'"></li>
+                <li><img src="images/chocopie.png" alt="slide2"></li>
+                <li><img src="images/goraebab.png" alt="slide3" onmouseover="this.src='images/goraebab.gif'" onmouseout="this.src='images/goraebab.png'"></li>
+                <li><img src="images/gummy_grape.png" alt="slide4"></li>
+                <li><img src="images/corn.png" alt="slide5" onmouseover="this.src='images/corn.gif'" onmouseout="this.src='images/corn.png'"></li>
+                <li><img src="images/tong.png" alt="slide6"></li>
+              </ul> <!-- //.slide_img -->
+            </div> <!-- //.slides -->
+          </div>
+          <!-- //.slide_group -->
+        </div> <!-- //.conveyor -->
+      </section>
+      <!-- //#conveyor -->
+
+      <section id="product">
+        <div class="container">
+          <div class="product">
+            <h2>Product</h2>
+            <span>총 <em>82</em>개의 오리온 제품이 있습니다</span>
+
+            <ul class="choice clearfix">
+                <li><input type="radio" id="all" name="click"><label for="all"><img src="images/all.png" alt="all" width="100"></label></li>
+                <li><input type="radio" id="orion" name="click"><label for="orion"><img src="images/orion.png" alt="orion" width="100"></label></li>
+                <li><input type="radio" id="marketo" name="click"><label for="marketo"><img src="images/marketo.png" alt="market-o" width="100"></label></li>
+                <li><input type="radio" id="dryou" name="click"><label for="dryou"><img src="images/dryou.png" alt="dr-you" width="100"></label></li>
+            </ul>
+
+            <div class="intro">
+              <div class="sec clearfix">
+                <a href="#a" class="down">
+                  <img src="images/potato.jpg" alt="event1">
+                  <span class="hi">★2019 포카칩 햇감자 한정판★</span>
+                </a>
+
+                <a href="#a"><img src="images/chick.jpg" alt="event2"></a>
+              </div>
+              <!-- //.sec -->
+              <div class="pro_box">
+                <ul class="liner liner1">
+                  <li><a href="#a" class="img1"><img src="images/chocopie.png" alt="all-product1">
+                    <p>오리온 초코파이</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/real.png" alt="all-product2">
+                    <p>리얼 브라우니</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/drbar.png" alt="all-product3">
+                    <p>에너지 바</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/ssin.png" alt="all-product4">
+                    <p>다이제 씬</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/chocosong.png" alt="all-product5">
+                    <p>초코송이</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/dakuaz.png" alt="all-product6">
+                    <p>다쿠아즈</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/gummy_grape.png" alt="all-product7">
+                    <p>마이구미 포도</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/corn.png" alt="all-product8">
+                    <p>섬섬 옥수수</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/cheeze.png" alt="all-product9">
+                    <p>리얼 치즈칩</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/drcookie.png" alt="all-product10">
+                    <p>쌀쿠키</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/oh.png" alt="all-product11">
+                    <p>오! 그래놀라</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/jelly.png" alt="all-product12">
+                    <p>닥터유 젤리</p>
+                  </a></li>
+                </ul> <!-- //.liner1 -->
+
+                <ul class="liner liner2">
+                  <li><a href="#a"><img src="images/chocopie.png" alt="orion-product1">
+                    <p>오리온 초코파이</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/peanut.png" alt="orion-product2">
+                    <p>오징어 땅콩</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/chocosong.png" alt="orion-product3">
+                    <p>초코송이</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/gummy_grape.png" alt="orion-product4">
+                    <p>마이구미 포도</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/castade.png" alt="orion-product5">
+                    <p>카스타드</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/corn.png" alt="orion-product6">
+                    <p>섬섬 옥수수</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/goraebab.png" alt="orion-product7">
+                    <p>고래밥</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/tong.png" alt="orion-product8">
+                    <p>통크</p>
+                  </a></li>
+                </ul> <!-- //.liner2 -->
+
+                <ul class="liner liner3">
+                  <li><a href="#a"><img src="images/dakuaz.png" alt="market-product1">
+                    <p>다쿠아즈</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/real.png" alt="market-product2">
+                    <p>리얼 브라우니</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/cheeze.png" alt="market-product3">
+                    <p>리얼 치즈칩</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/cracker.png" alt="market-product4">
+                    <p>리얼 크래커</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/pasta.png" alt="market-product5">
+                    <p>파스타칩</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/oh.png" alt="market-product6">
+                    <p>오! 그래놀라</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/ohbar.png" alt="market-product7">
+                    <p>오! 그래놀라 바</p>
+                  </a></li>
+
+                </ul> <!-- //.liner3 -->
+
+                <ul class="liner liner4">
+                  <li><a href="#a"><img src="images/diget.png" alt="dr-product1">
+                    <p>다이제</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/drcookie.png" alt="dr-product2">
+                    <p>쌀쿠키</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/drbar.png" alt="dr-product3">
+                    <p>에너지 바</p>
+                  </a></li>
+                  <li><a href="#a"><img src="images/jelly.png" alt="dr-product4">
+                    <p>닥터유 젤리</p>
+                  </a></li>
+                </ul> <!-- //.liner4 -->
+                <ul class="liner liner5">
+                  <li class="black">
+                    <a href="https://gennii.github.io/orion_chocopie/"><span>자세히 보기</span></a>
+                  </li>
+                  <li class="black">
+                    <a href="#a"><span>자세히 보기</span></a>
+                  </li>
+                  <li class="black">
+                    <a href="#a"><span>자세히 보기</span></a>
+                  </li>
+                  <li class="black">
+                    <a href="#a"><span>자세히 보기</span></a>
+                  </li>
+                </ul>
+              </div> <!-- //.pro_box -->
+            </div>
+            <!-- //.intro -->
+
+          </div>
+          <!-- //.product -->
+        </div> <!-- //.container -->
+      </section>
+      <!-- //#product -->
+      <p id="back_up">
+        <a href="#top"><i class="fas fa-angle-double-up"></i></a>
+      </p>
+
+      <footer id="footer">
+        <div class="flogo">
+          <img class="flogo" src="images/flogo.png" alt="footer_logo" width="90">
+        </div>
+
+        <div class="ful">
+          <ul class="clearfix">
+            <li>법적고지</li>
+            <li>이용안내</li>
+            <li>개인정보취급방침</li>
+            <li>이메일주소수집거부</li>
+          </ul>
+        </div>
+
+        <div class="address">
+          <address>서울시 용산구 백범로 90다길 13 / 전화번호 : 02-710-6000 / 상담실 : 080-023-5700 (수신자 부담)</address>
+        </div>
+        <div class="pn">
+           <span>ORIONMASTER@ORIONWORLD.COM</span>
+        </div>
+
+        <div class="copyright">
+           <span>COPYRIGHT ORION CORP. ALL RIGHT RESERVED</span>
+        </div>
+
+        <div class="footer_snsic">
+          <a href="#a"><img src="images/fb.png" alt="facebook" width="30"></a>
+          <a href="#a"><img src="images/blog.png" alt="blog" width="30"></a>
+          <a href="#a"><img src="images/yt.png" alt="youtube" width="30"></a>
+          <a href="#a"><img src="images/ig.png" alt="instagram" width="30"></a>
+          <a href="#a"><img src="images/kakao.png" alt="kakao" width="30"></a>
+        </div>
+      </footer>
+
+    </div> <!-- //#wrapper-->
+
+
+  </body>
+</html>
